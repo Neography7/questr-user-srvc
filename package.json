@@ -2,7 +2,7 @@
   "name": "user-srvc",
   "version": "0.0.1",
   "description": "This repository contains the user microservice portion of the Questr Q&A application.",
-  "author": "İlker Akyel",
+  "author": "İlker Akyel <ilkerakyel97@gmail.com (http://ilkerakyel.com)",
   "private": true,
   "license": "Beerware",
   "scripts": {
@@ -19,7 +19,7 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "proto:install": "npm i git+https://github.com/Neography7/questr-proto.git",
-    "proto:all": "protoc node_modules/questr-proto/proto/*.proto -I=./node_modules/questr-proto/proto --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=proto/ --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb",
+    "proto:all": "protoc node_modules/questr-proto/proto/*.proto -I=./node_modules/questr-proto/proto --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=proto/ --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb --ts_proto_opt=addGrpcMetadata=true",
     "proto:all:win": "protoc node_modules/questr-proto/proto/*.proto -I=./node_modules/questr-proto/proto --plugin=protoc-gen-ts_proto=\".\\node_modules\\.bin\\protoc-gen-ts_proto.cmd\" --ts_proto_out=proto/ --ts_proto_opt=nestJs=true --ts_proto_opt=fileSuffix=.pb --ts_proto_opt=addGrpcMetadata=true"
   },
   "dependencies": {
