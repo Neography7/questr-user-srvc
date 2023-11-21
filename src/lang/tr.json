@@ -1,0 +1,31 @@
+{
+  "id": "ID",
+  "userID": "ID",
+  "username": "Kullanıcı Adı",
+  "nickname": "Takma Ad",
+  "password": "Şifre",
+  "email": "E-posta",
+  "oldPassword": "Eski Şifre",
+  "newPassword": "Yeni Şifre",
+  "newPasswordConfirmation": "Yeni Şifre Onayı",
+  "avatarBase64": "Avatar",
+  "bio": "Biyografi",
+  "validation": {
+    "INVALID_STRING": "Geçersiz $t({{field}}) formatı.",
+    "INVALID_ALPHANUMERIC": "Geçersiz $t({{field}}) formatı.",
+    "NOT_EMPTY": "$t({{field}}) boş olamaz.",
+    "INVALID_BOOLEAN": "Geçersiz boolean değeri: $t({{field}}).",
+    "INVALID_EMAIL": "Geçersiz e-posta adresi"
+  },
+  "callback": {
+    "USER_NOT_FOUND": "Kullanıcı bulunamadı.",
+    "USERNAME_IN_USE": "Bu kullanıcı adı zaten kullanılıyor.",
+    "EMAIL_IN_USE": "Bu e-posta zaten kullanılıyor.",
+    "ERROR_OCCURRED": "Bir hata oluştu.",
+    "REGISTRATION_SUCCESSFUL": "Kayıt başarılı.",
+    "PASSWORD_INCORRECT": "Yanlış şifre.",
+    "PASSWORD_CHANGED": "Şifre değiştirildi.",
+    "AVATAR_UPLOADED": "Avatar yüklendi.",
+    "INFO_CHANGED": "Bilgileriniz güncellendi."
+  }
+}

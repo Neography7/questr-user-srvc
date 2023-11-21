@@ -1,0 +1,31 @@
+{
+    "id": "ID",
+    "userID": "ID",
+    "username": "Username",
+    "nickname": "Nickname",
+    "password": "Password",
+    "email": "Email",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "newPasswordConfirmation": "New Password Confirmation",
+    "avatarBase64": "Avatar Base64",
+    "bio": "Biography",
+    "validation": {
+        "INVALID_STRING": "Invalid string format for $t({{field}}).",
+        "INVALID_ALPHANUMERIC": "Invalid format for $t({{field}}).",
+        "NOT_EMPTY": "$t({{field}}) cannot be empty.",
+        "INVALID_BOOLEAN": "Invalid boolean value for $t({{field}}).",
+        "INVALID_EMAIL": "Invalid email address"
+    },
+    "callback": {
+        "USER_NOT_FOUND": "The user not found.",
+        "USERNAME_IN_USE": "This username is already in use.",
+        "EMAIL_IN_USE": "This e-mail is already in use.",
+        "ERROR_OCCURRED": "An error occurred",
+        "REGISTRATION_SUCCESSFUL": "Registration successful.",
+        "PASSWORD_INCORRECT": "Incorrect password.",
+        "PASSWORD_CHANGED": "The password has been changed.",
+        "AVATAR_UPLOADED": "The avatar has been uploaded.",
+        "INFO_CHANGED": "Your information has been changed."
+    }
+}
